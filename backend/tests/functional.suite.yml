@@ -1,0 +1,11 @@
+class_name: FunctionalTester
+modules:
+    enabled:
+        - REST:
+              url: /
+              depends: Yii2
+        - Filesystem
+        - Yii2
+        - Asserts
+    config:
+        - Yii2
